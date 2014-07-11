@@ -1,0 +1,25 @@
+{
+  "name": "timezone",
+  "description": "timezone",
+  "icons": {
+    "456": "/456.jpg"
+  },
+  "launch_path": "/index.html",
+  "permissions": {
+    "audio-channel-content": {
+      "description": "audio"
+    },
+    "settings": {
+      "description": "settings",
+      "access": "readwrite"
+    },
+    "alarms": {
+      "description": "alarm"
+    }
+  },
+  "developer": {
+    "name": "123"
+  },
+  "type": "certified",
+  "content_security_policy": "default-src *; script-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline'"
+}
